@@ -1,0 +1,23 @@
+const skills = [
+  "JavaScript",
+  "Python",
+  "Java",
+  "C++",
+  "C#",
+  "TypeScript",
+  "SQL",
+  "React",
+  "Node.js",
+  "Express.js",
+  "Angular",
+  "Vue.js",
+  "MongoDB",
+  "PostgreSQL",
+  "AWS",
+  "Docker",
+  "Git",
+  "Linux",
+  "REST API",
+  "HTML",
+];
+export default skills;
