@@ -8,7 +8,7 @@ export default defineConfig({
     open: true,
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "https://rizeos-91kw.onrender.com",
         changeOrigin: true,
       },
     },
