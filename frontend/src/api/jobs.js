@@ -15,7 +15,9 @@ export function createJob(data) {
 export function updateJob(id, data) {
   return api.put(`/api/jobs/${id}`, data);
 }
-
+export function confirmPayment(id, data) {
+  return api.post(`/api/jobs/${id}/confirm-payment`, data);
+}
 export function deleteJob(id) {
   return api.delete(`/api/jobs/${id}`);
 }
